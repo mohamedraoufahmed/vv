@@ -1,0 +1,91 @@
+body {
+ background-image: url('pic.jpg') ;
+    background-color: #ededef;
+
+  overflow: hidden;
+ background-size: cover;
+background-repeat: no-repeat;
+width:85%;
+margin: auto;
+height: auto;
+}
+
+
+
+.container {
+  padding: 40px 0px 40px 0px;
+  text-align: center;
+ margin: auto;
+ padding-top: 10px;
+ 
+  font-weight: bold;
+}
+h1{
+ font-size: 100px;
+ margin: -90px;
+ text-align:  left;
+padding-top: 100px;
+font-family:  "Poppins", sans-serif;
+color: black;
+
+}
+
+a:link, a:visited {
+  background-color: #5995fd;
+  color: black;
+ padding: 16px 30px;
+ text-align: center;
+  text-decoration: none;
+  display: inline-block;
+   border: hidden;
+  cursor: pointer;
+  border-radius: 9px;
+text-align: center;
+  box-shadow: 0 9px #999;
+  font-size: 50px;
+  margin: 10px;
+  margin-top: 300px;
+}
+
+a:hover {
+  background-color: black;
+   color: white;
+border: hidden;
+}
+
+a:active {
+   
+  background-color: #5995fd;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.bu{
+ padding-top: 10%;
+ text-align: left;
+}
+ @media (max-width: 580px) {
+ body{
+   background-image: url('pic1.jpg');
+ width: 100%;
+  overflow-x: hidden;
+    overflow-y: hidden;
+
+ }
+
+
+a:link, a:visited {
+  font-size: 4vw;
+  margin: 0px;
+  margin-top: 70vw;
+  margin-left: 15vw;
+  
+}
+h1{
+ font-size: 20vw;
+ margin: -1px;
+padding-top: 0px;
+
+}
+  }
+ 
